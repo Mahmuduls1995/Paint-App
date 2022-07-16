@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Components/Header/Header";
 import Login from "./Components/UserLogin/Login";
 import SignUp from "./Components/UserLogin/SignUp";
@@ -14,13 +14,12 @@ function App() {
         <Route path="/" element={
           <PrivateAuth>
             <Canva></Canva>
-            {/* <Home></Home> */}
+           
           </PrivateAuth>
         }></Route>
         <Route path="/home" element={
           <PrivateAuth>
              <Canva></Canva>
-            {/* <Home></Home> */}
           </PrivateAuth>
         }></Route>
         <Route path="/login" element={<Login></Login>} />
