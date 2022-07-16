@@ -14,12 +14,11 @@ function App() {
         <Route path="/" element={
           <PrivateAuth>
             <Canva></Canva>
-           
           </PrivateAuth>
         }></Route>
         <Route path="/home" element={
           <PrivateAuth>
-             <Canva></Canva>
+            <Canva></Canva>
           </PrivateAuth>
         }></Route>
         <Route path="/login" element={<Login></Login>} />

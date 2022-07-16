@@ -75,9 +75,8 @@ const Canva = () => {
         <div >
             <canvas
                 style={{
-                    border: "1px solid #000",
+                    border: "1px solid #000"
                 }}
-              
                 width={800}
                 height={400}
                 ref={canvasRef}
@@ -89,7 +88,7 @@ const Canva = () => {
             <br />
             <div >
                 <select
-                className="btn hover:bg-green-400"
+                    className="btn hover:bg-green-400"
                     value={selectedColor}
                     onChange={(e) => setSelectedColor(e.target.value)}
                 >
