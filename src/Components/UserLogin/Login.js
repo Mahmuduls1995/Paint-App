@@ -1,4 +1,4 @@
-import { signInWithEmailAndPassword } from 'firebase/auth';
+// import { signInWithEmailAndPassword } from 'firebase/auth';
 import React from 'react';
 import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useForm } from 'react-hook-form';
@@ -113,7 +113,7 @@ const Login = () => {
                       
                         
                     </form>
-                    <p ><small>New to Focus Academy <Link className='text-primary' to="/signup">Create New Account</Link></small></p>
+                    <p ><small>New to User ? <Link className='text-primary' to="/signup">Create New Account</Link></small></p>
                     <div className="divider text-black m-0">OR</div>
                         <button
                             onClick={() => signInWithGoogle()}
